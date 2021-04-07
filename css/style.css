@@ -1,0 +1,318 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f3f5f8;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Montserrat;
+}
+
+.wrapper {
+  background: #ffffff;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+  background: #1e2939;
+  width: 350px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #ffffff;
+}
+
+.my-photo {
+  width: 350px;
+  height: 430px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.about-myself {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  /* padding-bottom: 5px; */
+  color: #000000;
+}
+
+.contacts {
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.city {
+  margin-bottom: 10px;
+}
+
+.contacts-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.contacts-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #616974;
+}
+
+.contacts-link-type {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 10px;
+}
+
+.tech-skills-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.tech-skills-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 15px;
+  color: #ff6b08;
+}
+
+.tech-skills-text {
+  color: #d8dadd;
+}
+
+.skills {
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.skills-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.skills-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 15px;
+  color: #ff6b08;
+}
+
+.skills-text {
+  color: #d8dadd;
+}
+
+.position {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.future-position {
+  color: #ff6b08;
+}
+
+.information-about-me {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  color: #595959;
+  width: 500px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.projects {
+  margin-bottom: 20px;
+}
+
+.projects-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.projects-link-type {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  margin-left: 17px;
+}
+
+.projects-link-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #595959;
+}
+
+.dots {
+  color: #a8a8a8;
+  font-weight: 100;
+}
+
+.idea {
+  font-size: 14px;
+  font-weight: 400;
+  color: #595959;
+}
+
+.work-experience {
+  margin-bottom: 20px;
+}
+
+.work-experience-title {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.work-experience-position {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.employer {
+  margin-left: 5px;
+  color: #ff6b08;
+}
+
+.period {
+  margin-left: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #a8a8a8;
+}
+
+.period-country {
+  color: #000000;
+}
+
+.professional-duties {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.work-experience-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #595959;
+  margin-left: 17px;
+}
+
+.education {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.name-of-the-university {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ff6b08;
+  margin-top: 20px;
+}
+
+.faculty {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  /* margin-top: 15px; */
+  /* margin-bottom: 15px; */
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 15px;
+}
+
+.item {
+  margin-right: 11px;
+
+  fill: #ff6b08;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.item:last-child {
+  margin-right: 0;
+}
+
+.item:hover,
+.item:focus {
+  fill: white;
+  background-color: #ff6b08;
+}
+
+.link-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+
+  fill: inherit;
+}
+
+.link-icon-rep {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+
+  fill: inherit;
+}
+
+.item-rep {
+  display: inline-flex;
+  border-radius: 50%;
+  margin-left: 10px;
+
+  fill: #ff6b08;
+}
+
+.item-rep:hover,
+.item-rep:focus {
+  fill: white;
+  background-color: #ff6b08;
+}
+
+.education-item {
+  margin-bottom: 15px;
+}
